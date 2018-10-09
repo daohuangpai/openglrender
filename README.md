@@ -1,12 +1,17 @@
 1、Development 
+
    vs2015
 
 2、lib Dependency
+
 freetyped for font,link here:https://jaist.dl.sourceforge.net/project/freetype/freetype2/2.9.1/
+
 glfw3:link:https://github.com/glfw/glfw
 
 3、media:
+
 ffmpeg for video: can download from link https://obsproject.com/downloads/dependencies2015.zip
+
 OpenAL for audio: https://codeload.github.com/kcat/openal-soft/zip/master
 
 4、3d model:
