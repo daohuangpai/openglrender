@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A17670E3-0646-45CF-869B-496157EAFFBF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GLUI</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\code\opencl\ft291\freetype-2.9.1\include;D:\code\opencl\stb-master\stb-master;D:\code\opencl\glm-master\glm-master;C:\Users\me\Documents\Visual Studio 2015\Projects\glog-master\glog-master\src\windows;D:\code\boost\boost_1_66_0\boost_1_66_0;D:\code\glew-master\glew-2.1.0\glew-2.1.0\include;C:\Users\me\Documents\Visual Studio 2015\Projects\glfw-3.2.1\glfw-3.2.1\include;D:\code\obs-studio-master\dependencies2015\win64\include;D:\code\opencl\assimp-master\assimp-master\include;D:\code\opencl\assimp-master\assimp-master\project\include;D:\opencv\3.2.0\opencv\build\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>D:\code\opencl\ft291\freetype-2.9.1\project\x64\Debug;D:\code\glew-master\glew-2.1.0\glew-2.1.0\lib\Debug\x64;D:\code\boost\boost_1_66_0\boost_1_66_0\lib64vs2015\lib;C:\Users\me\Documents\Visual Studio 2015\Projects\glog-master\glog-master\vs2015\Debug;C:\Users\me\Documents\Visual Studio 2015\Projects\glfw-3.2.1\glfw-3.2.1\project\x64\Debug\;D:\code\obs-studio-master\dependencies2015\win64\bin;D:\code\openal-soft-master\openal-soft-master\vs2015\Debug;D:\code\opencl\assimp-master\assimp-master\project\x64\Debug;D:\code\zlib-1.2.11\zlib-1.2.11\project\x64\Debug;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetyped.lib;glogd.lib;glfw3.lib;opengl32.lib;glew32.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;OpenAL32.lib;zlibstaticd.lib;assimp.lib;IrrXML.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\configure.h" />
+    <ClInclude Include="common\glslvalue.h" />
+    <ClInclude Include="common\kernels.h" />
+    <ClInclude Include="common\Signal.h" />
+    <ClInclude Include="common\StringStream.h" />
+    <ClInclude Include="common\Value.h" />
+    <ClInclude Include="computer\BNT.h" />
+    <ClInclude Include="Graph\ball.h" />
+    <ClInclude Include="Graph\Cube.h" />
+    <ClInclude Include="imageproces\assembly.h" />
+    <ClInclude Include="imageproces\convolution.h" />
+    <ClInclude Include="imageproces\normalmap.h" />
+    <ClInclude Include="media\AudioPlayerAl.h" />
+    <ClInclude Include="media\Decoder.h" />
+    <ClInclude Include="model\animation.h" />
+    <ClInclude Include="model\common.h" />
+    <ClInclude Include="model\dataarray.h" />
+    <ClInclude Include="model\material.h" />
+    <ClInclude Include="model\mesh.h" />
+    <ClInclude Include="model\model.h" />
+    <ClInclude Include="model\node.h" />
+    <ClInclude Include="model\render.h" />
+    <ClInclude Include="model\shaderstandard.h" />
+    <ClInclude Include="OGL\bindnum.h" />
+    <ClInclude Include="OGL\buffer.h" />
+    <ClInclude Include="OGL\camera.h" />
+    <ClInclude Include="OGL\commonbuffer.h" />
+    <ClInclude Include="OGL\feedback.h" />
+    <ClInclude Include="OGL\font.h" />
+    <ClInclude Include="OGL\fonterror.h" />
+    <ClInclude Include="OGL\FrameBuffer.h" />
+    <ClInclude Include="OGL\globalblock.h" />
+    <ClInclude Include="OGL\image.h" />
+    <ClInclude Include="OGL\lazytool.h" />
+    <ClInclude Include="OGL\light.h" />
+    <ClInclude Include="OGL\mangertemplate.h" />
+    <ClInclude Include="OGL\name.h" />
+    <ClInclude Include="OGL\object.h" />
+    <ClInclude Include="OGL\openglerror.h" />
+    <ClInclude Include="OGL\query.h" />
+    <ClInclude Include="OGL\renderbuffer.h" />
+    <ClInclude Include="OGL\shader.h" />
+    <ClInclude Include="OGL\shaderhelper.h" />
+    <ClInclude Include="OGL\texture.h" />
+    <ClInclude Include="OGL\treestruct.h" />
+    <ClInclude Include="OGL\util.h" />
+    <ClInclude Include="OGL\vao.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="test\glftimehelper.h" />
+    <ClInclude Include="test\test.h" />
+    <ClInclude Include="ThridUtil\base.h" />
+    <ClInclude Include="ThridUtil\bmem.h" />
+    <ClInclude Include="ThridUtil\c99defs.h" />
+    <ClInclude Include="ThridUtil\circlebuf.h" />
+    <ClInclude Include="ThridUtil\closest-format.h" />
+    <ClInclude Include="ThridUtil\darray.h" />
+    <ClInclude Include="ThridUtil\decode.h" />
+    <ClInclude Include="tool\glftimer.h" />
+    <ClInclude Include="tool\path.h" />
+    <ClInclude Include="tool\tasks.h" />
+    <ClInclude Include="UI\ButtonViews.h" />
+    <ClInclude Include="UI\event.h" />
+    <ClInclude Include="UI\glfwindows.h" />
+    <ClInclude Include="UI\Glwindows.h" />
+    <ClInclude Include="UI\imageview.h" />
+    <ClInclude Include="UI\layoutview.h" />
+    <ClInclude Include="UI\RootView.h" />
+    <ClInclude Include="UI\textureview.h" />
+    <ClInclude Include="UI\TextView.h" />
+    <ClInclude Include="UI\util.h" />
+    <ClInclude Include="UI\view.h" />
+    <ClInclude Include="UI\win32key.h" />
+    <ClInclude Include="UI\windows.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\configure.cpp" />
+    <ClCompile Include="common\kernels.cpp" />
+    <ClCompile Include="common\StringStream.cpp" />
+    <ClCompile Include="computer\BNT.cpp" />
+    <ClCompile Include="GLUI.cpp" />
+    <ClCompile Include="Graph\ball.cpp" />
+    <ClCompile Include="Graph\Cube.cpp" />
+    <ClCompile Include="imageproces\assembly.cpp" />
+    <ClCompile Include="imageproces\convolution.cpp" />
+    <ClCompile Include="imageproces\normalmap.cpp" />
+    <ClCompile Include="media\AudioPlayerAl.cpp" />
+    <ClCompile Include="media\Decoder.cpp" />
+    <ClCompile Include="model\animation.cpp" />
+    <ClCompile Include="model\material.cpp" />
+    <ClCompile Include="model\mesh.cpp" />
+    <ClCompile Include="model\model.cpp" />
+    <ClCompile Include="model\node.cpp" />
+    <ClCompile Include="model\render.cpp" />
+    <ClCompile Include="model\shaderstandard.cpp" />
+    <ClCompile Include="OGL\buffer.cpp" />
+    <ClCompile Include="OGL\camera.cpp" />
+    <ClCompile Include="OGL\feedback.cpp" />
+    <ClCompile Include="OGL\font.cpp" />
+    <ClCompile Include="OGL\fonterror.cpp" />
+    <ClCompile Include="OGL\FrameBuffer.cpp" />
+    <ClCompile Include="OGL\globalblock.cpp" />
+    <ClCompile Include="OGL\image.cpp" />
+    <ClCompile Include="OGL\light.cpp" />
+    <ClCompile Include="OGL\object.cpp" />
+    <ClCompile Include="OGL\openglerror.cpp" />
+    <ClCompile Include="OGL\query.cpp" />
+    <ClCompile Include="OGL\renderbuffer.cpp" />
+    <ClCompile Include="OGL\shader.cpp" />
+    <ClCompile Include="OGL\shaderhelper.cpp" />
+    <ClCompile Include="OGL\texture.cpp" />
+    <ClCompile Include="OGL\vao.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="test\assimptest.cpp" />
+    <ClCompile Include="test\balltest.cpp" />
+    <ClCompile Include="test\drowelementtest.cpp" />
+    <ClCompile Include="test\imageprocesstest.cpp" />
+    <ClCompile Include="test\lighttest.cpp" />
+    <ClCompile Include="test\materialtest.cpp" />
+    <ClCompile Include="test\mediatest.cpp" />
+    <ClCompile Include="test\nromalmaptest.cpp" />
+    <ClCompile Include="test\Shadowtest.cpp" />
+    <ClCompile Include="test\signaltest.cpp" />
+    <ClCompile Include="test\subroutinetest.cpp" />
+    <ClCompile Include="test\testfont.cpp" />
+    <ClCompile Include="test\tranfeedbacktest.cpp" />
+    <ClCompile Include="test\uitest.cpp" />
+    <ClCompile Include="ThridUtil\base.c" />
+    <ClCompile Include="ThridUtil\bmem.c" />
+    <ClCompile Include="ThridUtil\decode.c" />
+    <ClCompile Include="tool\glftimer.cpp" />
+    <ClCompile Include="tool\path.cpp" />
+    <ClCompile Include="tool\task.cpp" />
+    <ClCompile Include="UI\ButtonViews.cpp" />
+    <ClCompile Include="UI\event.cpp" />
+    <ClCompile Include="UI\glfwindows.cpp" />
+    <ClCompile Include="UI\Glwindows.cpp" />
+    <ClCompile Include="UI\imageview.cpp" />
+    <ClCompile Include="UI\layoutview.cpp" />
+    <ClCompile Include="UI\RootView.cpp" />
+    <ClCompile Include="UI\textureview.cpp" />
+    <ClCompile Include="UI\TextView.cpp" />
+    <ClCompile Include="UI\util.cpp" />
+    <ClCompile Include="UI\view.cpp" />
+    <ClCompile Include="UI\windows.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OGL">
+      <UniqueIdentifier>{341d4668-adb8-41db-8885-e35ef2b7c7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{35e7b77c-c9ae-473d-9fee-d6f9673081a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{d97d32ba-f30b-4937-9dcd-f6fb65ed4e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{11f4afad-22f3-4837-9d2b-c4d43e8deaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{9e1af160-cfbc-43d7-8580-a5c63fb06f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{032ac392-9295-4d63-a7a6-44a0a5dd0352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThridUtil">
+      <UniqueIdentifier>{7f5ae25b-50d4-4043-a788-0a5a7622d551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media">
+      <UniqueIdentifier>{10779fd6-b785-4a65-aef5-e8628e5b3f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{5e7ac513-4b84-4c71-9514-3eb1015bed85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="computer">
+      <UniqueIdentifier>{41d886c7-aaa4-4557-845a-c98c0e75d0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imageproces">
+      <UniqueIdentifier>{e5b46cf4-f790-494d-a07b-47bad917b04d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Signal.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\StringStream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\buffer.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\camera.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\commonbuffer.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\globalblock.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\image.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\mangertemplate.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\name.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\openglerror.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\shader.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\texture.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\util.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\vao.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\font.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\fonterror.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\event.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\glfwindows.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Glwindows.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\windows.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RootView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\util.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\view.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\win32key.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\textureview.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ButtonViews.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\imageview.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\bindnum.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\feedback.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\FrameBuffer.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\light.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\query.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\renderbuffer.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\treestruct.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\lazytool.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\object.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\ball.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Cube.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\path.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\layoutview.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\glftimehelper.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\base.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\bmem.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\c99defs.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\circlebuf.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\closest-format.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\darray.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="ThridUtil\decode.h">
+      <Filter>ThridUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="media\AudioPlayerAl.h">
+      <Filter>media</Filter>
+    </ClInclude>
+    <ClInclude Include="media\Decoder.h">
+      <Filter>media</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\tasks.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="model\mesh.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\model.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\shaderstandard.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\material.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\node.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Value.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\configure.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="model\render.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\glftimer.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="common\glslvalue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL\shaderhelper.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="model\dataarray.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="computer\BNT.h">
+      <Filter>computer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\kernels.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="imageproces\convolution.h">
+      <Filter>imageproces</Filter>
+    </ClInclude>
+    <ClInclude Include="imageproces\assembly.h">
+      <Filter>imageproces</Filter>
+    </ClInclude>
+    <ClInclude Include="imageproces\normalmap.h">
+      <Filter>imageproces</Filter>
+    </ClInclude>
+    <ClInclude Include="model\animation.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\common.h">
+      <Filter>model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\StringStream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\buffer.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\camera.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\globalblock.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\image.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\openglerror.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\shader.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\texture.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\vao.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\font.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\fonterror.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\event.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\glfwindows.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Glwindows.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\windows.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\util.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\view.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\RootView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\textureview.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ButtonViews.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\imageview.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\feedback.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\FrameBuffer.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\light.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\query.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\renderbuffer.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\object.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\ball.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Cube.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TextView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\path.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\layoutview.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="test\uitest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\signaltest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testfont.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\subroutinetest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\balltest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\tranfeedbacktest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\lighttest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="ThridUtil\base.c">
+      <Filter>ThridUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="ThridUtil\bmem.c">
+      <Filter>ThridUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="ThridUtil\decode.c">
+      <Filter>ThridUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="media\AudioPlayerAl.cpp">
+      <Filter>media</Filter>
+    </ClCompile>
+    <ClCompile Include="media\Decoder.cpp">
+      <Filter>media</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mediatest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\task.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="test\assimptest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\drowelementtest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="model\mesh.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\model.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\shaderstandard.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\material.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\node.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="common\configure.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="model\render.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\glftimer.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL\shaderhelper.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="computer\BNT.cpp">
+      <Filter>computer</Filter>
+    </ClCompile>
+    <ClCompile Include="test\nromalmaptest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\imageprocesstest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="common\kernels.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="imageproces\convolution.cpp">
+      <Filter>imageproces</Filter>
+    </ClCompile>
+    <ClCompile Include="imageproces\assembly.cpp">
+      <Filter>imageproces</Filter>
+    </ClCompile>
+    <ClCompile Include="imageproces\normalmap.cpp">
+      <Filter>imageproces</Filter>
+    </ClCompile>
+    <ClCompile Include="test\materialtest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\Shadowtest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="model\animation.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
